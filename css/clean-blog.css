@@ -197,7 +197,7 @@ header.masthead {
     display: block; }
   header.masthead .post-heading .subheading {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 300;
     margin: 10px 0 30px;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   header.masthead .post-heading .meta {
@@ -369,4 +369,17 @@ footer {
 
 .card {
     margin-bottom: 10px;
+}
+
+.portfolio-image {
+  display: block;
+  margin: auto;
+  width: 30%;
+  align-items: center;
+  vertical-align: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
 }

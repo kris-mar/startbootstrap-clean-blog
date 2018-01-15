@@ -52,7 +52,7 @@
 </nav>
 
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('img/post-bg.jpg')">
+<header class="masthead" style="background-image: url('img/microsoftbanner.jpg')">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -73,7 +73,7 @@
             <div class="col-lg-8 col-md-10 mx-auto">
                 <h2>Summary</h2>
 
-                <p>Part of a two-person team that led the design, development, and implementation of a site redesign for the third largest college at UCF, the largest university in the country. Although the design cycle is never truly linear, I've organized the case study as follows:
+                <p>The Windows 10 Photos App has reached over 400 million people. I was contracted as a Product Designer to bring a refreshed vision of this app for Fall’s Creator update that included a video editor, 3D effects, and enhanced memory keeping functionality. To protect Microsoft's privacy, some parts of the design have been left out. This Case Study will focus on the theme system behind videos. I also designed the systems and UI/UX in the actually video editing screens (when a user adds filter, motion, text, etc to their video).</p>
                 <ol>
                     <li>Background</li>
                     <li>Approach</li>
@@ -87,93 +87,89 @@
 
                 <h2>Background</h2>
 
-                <p>Since its opening as an small all-male engineering college in the 60s, UCF has seen unprecedented growth as it became the largest university in the US in 2016. The College of Education not only encompasses the 5,500 students enrolled and staff but also provides assistance for schools and outreach programs for the surrounding underserved counties. I was hired as the first ever designer for the college and also served as the second developer alongside my manager, Wendy, the lead developer.</p>
+                <p><img src="img/photos-currentapp.PNG" style="width: 100%"></p>
 
-                <p>The website first created for the College needed to be refreshed to represent this incredibly large and diverse audience. It needed to adhere to accessibility standards, scale both visually and technically to keep up pace with the University, act as a advertisement for prospective students and donors, meet the need of the established user base, and also meet all the brand standards UCF had come to establish. Additionally, this site served as top site in the College’s umbrella of over 200 subsites. </p>
+                <p>Photos is an in box app that is included with any installation of Windows 10. In previous lifetimes, it was known as Windows Photo Viewer and Windows Photo and Fax Viewer. It is an app of extreme utility, being one of the most used programs within the OS. </p>
 
-                <p><img style="width: 100%" src="img/previouswebsite.PNG"></p>
+                <p>Recently, Microsoft has taken charge in putting creativity within reach of every person; the Photos app is a perfect canvas for this cause. Our team was tasked with updating the app to to provide better memory keeping while also providing some daring features that are new to most users: assisted storytelling via automatically generated movies, a video editor, and special effects.</p>
 
-                <p>The original site was constructed on a technology stack consisting of Apache, Oracle Database, Coldfusion, and Flash. Much of the content did not scale to mobile or tablet and did not meet accessibility standards. Pages were constructed using nested tables and outdated marketing material. </p>
+                <p>I assisted in the design of many parts of the app but I was focused mainly on the editing features a user could encounter while interacting with their videos. Our aim for the editing functions align with the organization’s broader goals: make creation more approachable for everyone.</p>
+
+                <p>Everyone has a story to tell and it was my job to help them tell it.</p>
 
                 <h2>Approach</h2>
 
-                <p>To begin work on the tech we needed to do an in-depth technical investigation to find out what stack would be best for us. We inspected front-end frameworks such as Bootstrap and Semantic, NoSQL vs SQL, and several Javascript libraries. With a basic knowledge of all the technologies, we could reference our websites goals after UR to see which could carry us best through the scenarios.  </p>
+                <p>My first task for the project was to create a suite of video themes that could be applied via automatic movies or manually in the editor. I approached this task with one thought in mind: reusability. This simple thought may seem easy enough, but when we're talking hundreds of millions of active users, it becomes a quagmire. How could we have a theme that potentially gets used a million times over yet doesn't get tired?</p>
 
-                <p>Since we had such a large and varied audience, we wanted to approach this with our most diverse users in mind. If we could pinpoint the two extremes in user’s, then we could easily map everyone in between. We already knew how to make a website for students and faculty but we what we needed to learn was how to represent the community and outreach programs. We decided we needed to really get to know our user, create all the possible scenarios, and map their journey.</p>
+                <p>To be able to achieve our goal of reusability as well as make our suite of themes appealing we defined some characteristics of our feature that we wanted to explore. The first component of reusable themes was freshness; nobody wants to use titles and transitions that remind them of the 90s. The second component is relevance, users want a breadth of content to complement their story; we needed happy themes for happy stories, sad themes for sad ones, etc. The third component was respect; our themes needed to make our user's pictures and videos shine and make them feel like a superstar.</p>
 
                 <h2 class="section-heading">Research</h2>
 
-                <p>We started with casting a wide net. Before interviewing our key users, we decided to open up a survey to pinpoint some of the common uses to fact check our assumptions on student usage.</p>
+                <p>The first step in research was to thumb through all the telemetry and studies done previously. We had a lot of great data from the existing Photos app and Windows Movie Maker. I wanted to learn about the behaviors, patterns, and needs people have when creating digital stories.</p>
 
-                <p><img src="img/ucfsurvey.png" style="width: 100%"></p>
+                <p>After I understood the basic user needs, it was time for me to actually learn about the process of film making. Before I hit YouTube and Vimeo to see what kinds of videos people were making, I wanted to know more about the origins of the styles in movies. I did a cinematic deep dive. I broadened my scope to world cinema and TV to create buckets of genres and styles. Within the buckets contained archetypal edits and their sources.</p>
 
-                <p>With the validation of our assumptions about student users, it was time to figure out a good representation of our most diverse user base, we went out to interview some of our stakeholders to find out what was important to them. Here are some excerpts:</p>
+                <!--INSERT IMAGE HERE OF MOVIES -->
 
-                <h4>Family Counseling Center</h4>
+                <p>Feeling confident with my filmmaking and user knowledge, I decided to see what videos were being created and consumed in the present. Scouring through the most popular YouTube stars to the home movies with 10 views, I tried to take as much editing data from them as I could and tried to place them into the cinematic buckets to begin to map out what edits we would need for themes to cover as much ground as possible.</p>
 
-                <p>We sat down with a clinic that provides conflict mediation training for couples and families, discounted childcare, and resources to help people excel in their career and homelife.</p>
+                <p>At this point I had a rough idea of what edits we should create and what kind of videos users wanted to make. With this assumption, I cross referenced some psychological research. I mapped out what emotions our themes covered on top of a simplified version of Plutchik's Chart of Emotions to check if we were hitting all four quadrants.</p>
 
-                <blockquote class="blockquote">"Our work here runs off of grants. Marketing and targeting potential clients is the most important thing to us and we rely on the website to distribute this information. Often we work with people who have little access to the internet and know English as a second language so we need something that's easy to access and understand."</blockquote>
-
-                <h4>Early Learners Invention Programs</h4>
-
-                <p>A statewide program that serves prekindergarten children with disabilities by preparing them, their family, and their educators for the public school system.</p>
-
-                <blockquote class="blockquote">"We're a really small organization spread out over the state, that means we have faculty trying to communicate from over 900 miles away! We're always struggling in sharing amongst the organization, especially since we're not all tech savvy. We also have intense accessibility standards to meet for our kids and we need to be approachable to parents and teachers."</blockquote>
-
-                <h4>The Reading Clinic</h4>
-
-                <p>Funded by the counties, these clinics provide after-school enrichment for K-12 students on the college campus. Their goal is to get students involved in creative expression and supplement the lack of art funding in the classroom. </p>
-
-                <blockquote class="blockquote">"The program is struggling now because the information on the clinics and how to pay for them are hard to access. We're trying to get parents involved and they're already so busy, they don't have the time to learn how to use a website. We need a good way to promote our program and also share out announcements about the program."</blockquote>
-
-                <p><br></p>
+                <!--INSERT IMAGE HERE OF CHART -->
 
                 <h2>Mapping Opportunities</h2>
 
-                <p>So we understood our student users and we got so many valuable insights from our diverse stakeholders. We digested the information and created our personas to find map out goals and scenarios.</p>
+                <p>So we had our beginning list of themes and the edits we needed to create them. We knew at this point that we could satisfy the second component for reusability and we came up with two opportunities the satisfy the first and last.</p>
 
-                <p><img src="img/ucfpersonas.png" style="width: 100%"> </p>
-
-                <p>We agreed to focus in on:
-                <ol>
-                    <li><b>Accessibility:</b> Let inclusivity be the key that guides the visual design. Not only will we become more approachable and friendly to the community, but it will be a good representation of the UCF brand.</li>
-                    <li><b>Surfacing Content:</b> With all the directions a user could go from our homepage, we would do best to surface up the more obscure locations to assist teachers and parents.</li>
-                    <li><b>Modular UI:</b> With so many different faces, we need to take our opportunity to create a modular UI so even though we have pages for students and pages for faculty, they all still look like the UCF brand.</li>
-                </ol>
+                <p>
+                    <ol>
+                        <li>To ensure freshness, take inspiration from videos people are creating today. Also, leverage the power of Microsoft's technology to apply edits "smartly." We should be able to know if a user's video is a happy one, and if it is, then apply a #happy theme</li>
+                        <li>To be respectful and timeless, let's make all of the themes light handed. This is the user's story, not ours.</li>
+                    </ol>
                 </p>
 
                 <h2>Vision</h2>
 
-                <p>Using our learnings from the interviews and knowing what we were prioritizing, we both agreed that migrating towards a MEAN stack would be best. For interest of time, we began implement one technology after another; I was set to graduate in a few months so we began with the least impactful changes. We replaced the existing Coldfusion script frontend with a series of Angular single page applications. We also began doing small changes like introducing SVG graphics over old JPEGs and converting the UI to Bootstrap for modular control. As predicted, there was not enough time for an entire rewrite before I left school so we left the existing database in tact. </p>
+                <p>We had our initial set of themes agreed upon so we set out to begin the artistic process. Our process began like this:
+                    <ol>
+                        <li>Create a razor statement for each theme that includes it's artistic style, purpose, and target audience</li>
+                        <li>Create a mood board based on inspiration from TV, movies, music, and photographs</li>
+                        <li>Iterate on this mood board until we have consensus</li>
+                        <li>Finalize a color palette and typeface</li>
+                        <li>Begin to create titles, captions, filters, etc based on above</li>
+                        <li>Add the assets that create this theme to the editor, test, and iterate</li>
+                    </ol>
+                </p>
 
-                <p>With our tech decided upon and signed off on, we began tackling the massive IA. Using the pages we already had, the actions you could take on them, and the new pages we would need to add, we began with mapping them out on relativity.</p>
+                <p>We also worked on how users interacted with themes. Yes users could always manually apply a theme like you would in a video editor like Windows Movie Maker, but we had the added complexity of automatically made movies from user's photo albums. We had to decide how those themes would automatically apply, which ones were most appropriate to be applied so often, if we would pre-populate title text, etc.</p>
 
-                <p><img src="img/stickyslam.jpg" style="width: 100%"></p>
-
-                <p>We shaved off the fat and narrowed it down to something we could share amongst ourselves.</p>
-
-                <p><img src="img/UCFIA.png" style="width: 100%"></p>
-
-                <p>We began visualizing what this site could look like, indexing on the multitude of screens we know it would run on. We had several variations of basic layouts which were eventually narrowed down by the board of members in the college.</p>
-
-                <p><img src="img/wireframelayouts.png" style="width: 100%"></p>
+                <!-- Add photos of Theme Wall -->
 
                 <h2>Production</h2>
 
-                <p>The next step was to begin production on the site, using Wordpress as a rapid prototyping tool. We collaborated with the Designers of the UCF brand to give the college a refreshed logo, new plugins, and correct our color palette.</p>
+                <p>With themes in the app, we began taking our designs to research. We would have users create videos, apply themes, and get their reaction on the changes. We also had them interact with UI I created to manually pick themes. We also invited the office to selfhost the themes and provide feedback.</p>
 
-                <p>We focused heavily on accessibility, opening up a feedback loop with experts in the college and getting constant feedback from our core userbase.</p>
+                <p>We announced our product at Build 2016 and start rolling out in Fall the same year.</p>
 
-                <p>All said and done, the new website was pushed to the world 6 months after I graduated and left my post at the college to go join Microsoft with my husband.</p>
+                <p>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/bPaIRyfYeoo">
+                    </iframe>
+                </p>
 
-                <p><img src="img/current.PNG" style="width: 100%"></p>
+                <p><blockquote class="blockquote">"Microsoft's Story Remix app is Windows Movie Maker on steroids"</blockquote>- The Verge</p>
 
-                <p>The new UI features a remastered two-tiered navigation and a quick access menu. It also surfaces the calendar to help visibility for the community. The banner we added also showcases some of the lesser-known schools inside the college, such as the Exercise Science division. It also has room for marketing material that the university sends over. Within this is also upgraded file sharing and dedicated pages for organizations' outreach programs. The new site assists the target users we defined a year before the project launched.</p>
+                <p><blockquote class="blockquote">"Our work here runs off of grants. Marketing and targeting potential clients is the most important thing to us and we rely on the website to distribute this information. Often we work with people who have little access to the internet and know English as a second language so we need something that's easy to access and understand."</blockquote></p>
+
+                <p><blockquote class="blockquote">"Microsoft has once again opened the door into creative expression within Windows. "</blockquote> - PC World</p>
+
+                <p><blockquote class="blockquote">"A transformational app for consumers fed up with their ever-growing libraries of digital media."</blockquote> - Engadget</p>
+
+                <p>We've continued our rollout of themes and update them and improve them as we go. We have a host of features in the Photos App to help bring the power of creativity to every user.</p>
 
                 <h2>Reflection</h2>
 
-                <p>Being able to work on a website and a brand that means so much to the community I grew up in was an incredible experience. This project taught me some of my most valued skills, both technical and social. Because our development team was only two people and I was the only designer, I was able to see the project through every step and directly interact with our stakeholders. I was honored to be able to assist so many outreach programs and also my fellow students. In the end, I would have loved to finish implementing the new database and help the backend handle the inevitable expansion. I got to learn about several new technological stacks which was a great growing experience. I would have loved to also see the visuals all the way through, but the current UI is both fresh and simplified. This was one of the most impactful projects of my career and I will always be proud of the work we did.</p>
+                <p>Working on such a widely used app (400,000,000 users wow!) was absolutely terrifying but also delightful. I used this app my entire life and I can't believe I've gotten to work on it. I learned so many valuable lessons in inclusivity, accessibility, and how much work goes into shipping something so monumental. One of my favorite parts of working on this team is our great research team. I got to earn a lot of experience in many types of UR, an opportunity I never had on other projects due to their small size. I also learned so much about working cross-team and cross-discipline. We have a lot more exciting changes coming to the Photos App and I'm excited to see how we can empower users next. </p>
             </div>
         </div>
     </div>
